@@ -520,7 +520,8 @@ namespace Insfrastructure.Initialiser
             DivisionCode = 14,
             DivisionName = "Mezam",
             DivisionTag = "E",
-            RegionID = nordwest.RegionID
+            //Region=nordwest,
+            RegionID = 1
         };
 
         public static List<Division> UserDivisions
@@ -537,7 +538,7 @@ namespace Insfrastructure.Initialiser
         {
             SubDivisionCode = 248,
             SubDivisionName = "Bamenda I",
-            DivisionID = Division14.DivisionID
+            DivisionID = 3
         };
 
         public static List<SubDivision> UserSubDivisions
@@ -553,7 +554,7 @@ namespace Insfrastructure.Initialiser
         private static Adress adressAdmin = new Adress()
         {
             AdressCellNumber = "679209406",
-            SubDivisionID = SubDivision248.SubDivisionID
+            SubDivisionID = 3
 
         };
 

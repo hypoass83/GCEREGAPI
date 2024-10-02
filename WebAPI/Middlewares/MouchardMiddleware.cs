@@ -35,7 +35,7 @@ public class MouchardMiddleware
                 MoucharProcedureName = context.Request.Path,
                 MoucharHost = context.Connection.RemoteIpAddress.ToString(),
                 MoucharHostAdress = context.Connection.LocalIpAddress.ToString(),
-                ExamCentreID = 2, // Exemple statique, dépend de votre logique d'application
+                //ExamCentreID = 2, // Exemple statique, dépend de votre logique d'application
                 MoucharBusinessDate = DateTime.UtcNow
             };
 
