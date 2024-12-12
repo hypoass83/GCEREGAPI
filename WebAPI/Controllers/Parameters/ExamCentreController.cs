@@ -11,6 +11,7 @@ namespace WebAPI.Controllers.Parameters
 {
     [ApiController]
     [Route("api/ExamCentres/")]
+    [Authorize]
     public class ExamCentreController : ControllerBase
     {
         IExamCentreService _ExamCentreService;
