@@ -113,6 +113,7 @@ StyleCopReport.xml
 *.dbproj.schemaview
 *.pfx
 *.publishsettings
+*.pubxml
 orleans.codegen.cs
 
 # Since there are multiple workflows, uncomment next line if the tool you use requires chaining.
@@ -124,4 +125,5 @@ orleans.codegen.cs
 
 # VS Code
 .vscode/
+*/PublishProfiles
 
